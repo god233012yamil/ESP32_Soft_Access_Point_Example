@@ -8,7 +8,6 @@ const char *ssid = "SSID";
 const char *password = "Password";
 IPAddress ip = {0, 0, 0, 0};
 
-//testing
 // Callback for WiFi events. This function will be called when a WiFi event takes place.
 void WiFiEvent(WiFiEvent_t event, WiFiEventInfo_t info){  
     switch(event) {
